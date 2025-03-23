@@ -317,7 +317,10 @@ button{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
     border: none;
     border: 1px solid #6971A266;
     border-radius: 20px;
@@ -378,9 +381,61 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.third-page-right{
+    margin-bottom: 100px;
+}
 
 
+.second-h1{
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
 
+.wrapper-card-img{
+    background-image: url(./images/Image\ \(5\).png);
+    max-width: 552px;
+    max-height: 330px;
+    padding: 30px 45px;
+    /* background-size: cover; */
+    border: 1px solid #3637496E;
+    border-radius: 20px;
+
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-sarlavha{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card-matn{
+    font-size: 20px;
+    color: #BEC1DD;
+    max-width: 552px;
+}
+
+.card-1{
+    padding: 20px;
+    background: linear-gradient(#04071D, #0C0E23);
+    border: 2px solid  #3637496E;
+    border-radius: 20px;
+    max-width: 600px;
+    max-height: 618px;
+    position: relative;
+}
+
+
+.wrapper-logosss
+{
+    text-decoration: none;
+    border: 1px solid #000319;
+}
 
 
 
@@ -436,7 +491,15 @@ button{
     .left-one{
         max-width: 500px;
     }
+
+    .third-page-right{
+        margin-bottom: 50px;
+    }
 }
+
+
+
+/* bu esa iphone moslashish */
 
 @media (max-width: 500px){
     header{
@@ -449,6 +512,7 @@ button{
     }
     .hero-matn{
         font-size: 12px;
+        text-align: center;
         
     }
     .hero-matn-2{
@@ -529,6 +593,22 @@ button{
     .left-one{
         width: 100%;
     }
+
+    .wrapper-card-img{
+        padding: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .card-1{
+        width: 100%;
+    }
+
+    
+    
+
+
+    
 
     
 
