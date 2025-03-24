@@ -676,6 +676,12 @@ button{
     .card-1{
         width: 100%;
     }
+    .card-sarlavha{
+        text-align: center;
+    }
+    .card-matn{
+        text-align: center;
+    }
 
     
     
@@ -687,4 +693,14 @@ button{
 
     
     
+}
+
+
+@media (max-width: 400px){
+    .card-sarlavha{
+        font-size: 18px;
+    }
+    .logos-rasm{
+        width: 30px;
+    }
 }
