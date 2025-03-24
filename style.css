@@ -434,9 +434,40 @@ button{
 .wrapper-logosss
 {
     text-decoration: none;
-    border: 1px solid #000319;
+}
+.logos-rasm{
+    width: 50px;
+    height: auto;
 }
 
+.card-link{
+    font-size: 20px;
+    color: #CBACF9;
+    text-decoration: none;
+
+
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.card-header{
+    display: flex;
+    gap: 30px;
+
+}
+
+.wrapper-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 
 
@@ -494,6 +525,48 @@ button{
 
     .third-page-right{
         margin-bottom: 50px;
+    }
+
+    .card-header{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-1{
+        width: 100%;
+    }
+
+    .card-sarlavha{
+        font-size: 20px;
+    }
+
+    .card-matn{
+        font-size: 14px;
+        color: #BEC1DD;
+    }
+
+    .logos-rasm{
+        width: 34px;
+    }
+    .card-link{
+        font-size: 14px;
+    }
+    .card-footer{
+        width: 100%;
+        overflow-y: hidden;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .wrapper-logos{
+        width: 60%;
+    }
+    .card-link{
+        width: 40%;
     }
 }
 
