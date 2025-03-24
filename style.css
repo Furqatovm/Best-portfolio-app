@@ -693,6 +693,9 @@ button{
         margin-right: auto;
         margin-left: auto;
     }
+    .card-img{
+        width: 25px;
+    }
 
     
     
