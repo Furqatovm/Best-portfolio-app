@@ -682,6 +682,12 @@ button{
     .card-matn{
         text-align: center;
     }
+    .card-footer{
+        width: 100%;
+    }
+    .wrapper-logos{
+        width: 50%;
+    }
 
     
     
