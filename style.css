@@ -622,7 +622,6 @@ button{
 
     .client-opinions{
         width: 100%;
-        height: auto;
     }
 
 
@@ -778,6 +777,12 @@ button{
     .client-opinions{
         width: 100vw;
     }
+    .clients{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
 
     
     
