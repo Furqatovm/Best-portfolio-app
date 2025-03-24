@@ -97,7 +97,6 @@ header{
 
 .second-page{
     width: 100%;
-    height: 100vh;
 }
 .wrapper-earth{
     width: 100%;
@@ -469,6 +468,58 @@ button{
     gap: 30px;
 }
 
+.client-righ{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.wrapper-client-img{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.sar{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.client-matn{
+    font-size: 20px;
+    max-width: 810px;
+    color: #ffffff;
+    line-height: 1.9rem;
+}
+
+.client-opinions{
+    min-width: 60vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(#04071D, #0C0E23);
+    border: 1px solid #3637496E;
+    border-radius: 20px;
+}
+
+
+.clients{
+    display: flex;
+    gap: 40px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    overflow-x: scroll;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+
+.clients::-webkit-scrollbar{
+    display: none;
+}
+
 
 
 
@@ -568,6 +619,18 @@ button{
     .card-link{
         width: 40%;
     }
+
+    .client-opinions{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* .client-matn{
+        font-size: 16px;
+        max-width: 358px;
+    } */
+
 }
 
 
@@ -581,7 +644,6 @@ button{
     .main-sarlavha, .sarlavha-span{
         font-size: 48px;
         letter-spacing: -1.6px;
-
     }
     .hero-matn{
         font-size: 12px;
@@ -703,10 +765,22 @@ button{
         font-size: 12px;
     }
 
+    .clients{
+        padding: 10px 15px;
+    }
+    .client-matn{
+        font-size: 14px;
+    }
+    
+    .client-photo{
+        width: 30px;
+    }
+    .client-opinions{
+        width: 100vw;
+    }
+
     
     
-
-
     
 
     
@@ -722,5 +796,9 @@ button{
     }
     .logos-rasm{
         width: 30px;
+    }
+
+    .client-matn{
+        font-size: px;
     }
 }
