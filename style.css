@@ -688,6 +688,11 @@ button{
     .wrapper-logos{
         width: 50%;
     }
+    header{
+        max-width: 380px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     
     
