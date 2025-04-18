@@ -523,6 +523,80 @@ button{
 
 
 
+.client-opinions{
+    max-width: 910px;
+    min-height: 300px;
+}
+
+
+.clients{
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.client-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.client-footer-top, .client-footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 4.4rem;
+}
+
+.client-footer-logo{
+    max-width: 177px;
+    height: auto;
+}
+
+body{
+    overflow-x: auto;
+    transition: 0.5s;
+}
+
+.div1-sarlavha{
+    font-size: 	1.625rem;
+    color: #fff;
+    font-weight: 700;
+}
+.div1-matn{
+    color: #BEC1DD;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.div1-left{
+    width: 30%;
+}
+.div1-right{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    background: linear-gradient(#04071D, #0C0E23);
+    border: 1px solid #3637497D;
+    padding: 3.3rem;
+    border-radius: 20px;
+}
+.wrapper-experience{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+  
+.salomm{
+    margin-top: 2rem;
+}
+
+.div1-rasm{
+    width: 100%;
+}
 @media (max-width: 768px){
     .main-sarlavha{
         text-align: center;
@@ -629,7 +703,32 @@ button{
         font-size: 16px;
         max-width: 358px;
     } */
-
+     
+    .client-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .client-footer-logo{
+        max-width: 133px;
+        height: auto;
+    }
+    .client-matn{
+        width: 100%;
+    }
+    .client-opinions{
+        padding: 1rem;
+    }
+    .wrapper-experience{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .div1{
+        width: 100%;
+    }
 }
 
 
@@ -783,6 +882,9 @@ button{
         gap: 20px;
     }
 
+    .clients{
+        max-width: fit-content;
+    }
 
     
     
@@ -805,5 +907,45 @@ button{
 
     .client-matn{
         font-size: px;
+    }
+    .client-footer-logo{
+        max-width: 100px;
+        object-fit: cover;
+    }
+    .client-footer-top, .client-footer-bottom{
+        display: flex;
+        gap: 1rem;
+    }
+    .client-footer-logo{
+        max-width: 80px;
+    }
+    .client-footer-bottom{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    header{
+        gap: 0;
+    }
+    .div1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .div1-left{
+        width: 30%;
+    }
+    .div1-right{
+        width: 100%;
+    }
+    .div1-sarlavha{
+        font-size: 1.25rem;
+    }
+    .div1-matn{
+        font-size: 14px;
+    }
+    .div1{
+        padding: 1.5rem;
     }
 }
