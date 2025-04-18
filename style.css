@@ -597,6 +597,64 @@ body{
 .div1-rasm{
     width: 100%;
 }
+.salomm{
+    margin-bottom: 	4.375rem;
+}
+
+.sarlav{
+    margin-top: 3.85rem;
+    padding-bottom: 1rem;
+}
+.phase-1{
+    background: linear-gradient(#04071D, #0C0E23);
+    border: 1px solid #3637497D;
+    width: 30%;
+    position: relative;
+    border-radius: 20px;
+    max-width: 620px;
+}
+.wrapper-tugm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+.plus{
+   
+     max-width: 46px;
+}
+.tugmaaa{
+    background: linear-gradient(#161A31, #06091F);
+    border: 1px solid #6971A266;
+    font-size: 	1.875rem;
+    padding: 18px 25px;
+    border-radius: 11px;
+    font-weight: 700;
+    color: #CBACF9;
+}
+.plusleft{
+    position: absolute;
+    right: -4%;
+    top: -4%;
+}
+
+.plusright{
+    position: absolute;
+    left: -4%;
+    top: -4%;
+}
+.plusbottomleft{
+    position: absolute;
+    bottom: -4%;
+    left: -4%;
+}
+.plusbottomright{
+    position: absolute;
+    bottom: -4%;
+    right: -4%;
+}
+
 @media (max-width: 768px){
     .main-sarlavha{
         text-align: center;
