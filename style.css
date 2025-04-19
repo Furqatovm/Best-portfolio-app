@@ -693,6 +693,41 @@ body{
     justify-content: space-between;
     gap: 2.75rem;
 }
+.footer-sarlavha{
+    font-size: 48px;
+    max-width: 720px;
+    line-height: 100%;
+    text-align: center;
+}
+.footer-span{
+    color: #CBACF9;
+}
+.footer-matn{
+
+    color: #C1C2D3;
+    font-size: 16px;
+}
+.footer-tugma{
+    background: linear-gradient(#161A31, #06091F);
+    border: 1px solid #6971A266;
+    padding: 22px 40px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.footeer{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+
+
+
+
 
 @media (max-width: 768px){
     .main-sarlavha{
