@@ -655,6 +655,45 @@ body{
     right: -4%;
 }
 
+
+.tugma1{
+    background: linear-gradient(#161A31, #06091F);
+    border: 1px solid #6971A266;
+    font-size: 	1rem;
+    padding: 18px 25px;
+    border-radius: 11px;
+    font-weight: 600;
+    color: #CBACF9;
+}
+.phase-1-h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: center;
+}
+.phase-1-p{
+    color: #E4ECFF;
+    font-size: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.phase1-center{
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    text-align: center;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 11.875rem 0rem;
+}
+
+.wrapper-approach{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.75rem;
+}
+
 @media (max-width: 768px){
     .main-sarlavha{
         text-align: center;
@@ -786,8 +825,21 @@ body{
     }
     .div1{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .wrapper-approach{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .phase-1{
+        width: 100%;
     }
 }
+
 
 
 
@@ -893,6 +945,11 @@ body{
 
     .card-1{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        align-items: start;
+        padding: 1.25rem;
     }
     .card-sarlavha{
         text-align: center;
@@ -943,7 +1000,19 @@ body{
     .clients{
         max-width: fit-content;
     }
-
+    .client-footer-logo{
+        max-width: 100px;
+    }
+    .client-footer-bottom{
+        display: flex;
+        gap: 2rem;
+    }
+    .phase-1{
+        max-height: 600px;
+    }
+    .div1-sarlavha{
+        font-size: 1.5rem;
+    }
     
     
     
@@ -952,6 +1021,15 @@ body{
 
     
     
+}
+
+
+@media (max-width: 450px){
+    .client-footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -990,6 +1068,7 @@ body{
         flex-direction: column;
         gap: 2rem;
         justify-content: space-between;
+        align-items: start;
     }
     .div1-left{
         width: 30%;
@@ -1004,6 +1083,12 @@ body{
         font-size: 14px;
     }
     .div1{
-        padding: 1.5rem;
+        padding: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
+    .div1-sarlavha{
+        font-size: 	1.25rem;
+    }
+    
 }
