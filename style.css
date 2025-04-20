@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: #C1C2D3;
     font-family: "Inter", sans-serif;
+    transition: all 0.5s;
 }
 
 .container{
@@ -724,10 +725,39 @@ body{
     gap: 1.25rem;
 }
 
+.footerr-logo{
+    max-width: 45px;
+    cursor: pointer;
+    max-height: 45px;
+}
+.footerr-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 18%;
+}
+.footer-footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+.footerr-logo:hover{
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
+.wrapper-card-img{
+    overflow: hidden;
+    padding-bottom: 0;
+}
 
+.card-img{
+    rotate: 4deg !important;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 
-
-
+}
 
 @media (max-width: 768px){
     .main-sarlavha{
@@ -872,6 +902,23 @@ body{
     }
     .phase-1{
         width: 100%;
+    }
+    .footer-footer-wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerr-right{
+        width: 100%;
+    }
+    .footer-matn{
+        text-align: center;
+    }
+    .footerr-right{
+        display: flex;
+        gap: 1rem;
     }
 }
 
@@ -1052,7 +1099,13 @@ body{
     
     
 
-    
+    .footer-footer-wrap{
+        margin-top: 2rem;
+    }
+    .footerr-right{
+        display: flex;
+        gap: 1rem;
+    }
 
     
     
