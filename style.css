@@ -758,6 +758,41 @@ body{
     border-bottom-right-radius: 0;
 
 }
+.links{
+    border-bottom: 2px solid transparent;
+}
+.links:hover{
+    border-bottom: 2px solid #BEC1DD;
+    cursor: pointer;
+}
+
+.wrapper-card-img:hover{
+    overflow: hidden;
+    .card-img{
+        transform: scale(1.1);
+    }
+}
+.logos-rasm:hover{
+    transform: scale(1.3);
+}
+.client-footer-logo:hover{
+    transform: scale(1.1);
+}
+.phase-1:hover{
+    transform: scale(1.1);
+}
+.phase-1-center:hover{
+    transform: scale(1.1);
+    .wrapper-approach{
+        overflow: hidden;
+    }
+}
+.footer-tugma:hover{
+
+    background: linear-gradient(#C1C2D3);
+    color: #000319;
+}
+
 
 @media (max-width: 768px){
     .main-sarlavha{
