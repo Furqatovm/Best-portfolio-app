@@ -793,6 +793,14 @@ body{
     color: #000319;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+.hero{
+    position: relative;
+}
+
 
 @media (max-width: 768px){
     .main-sarlavha{
