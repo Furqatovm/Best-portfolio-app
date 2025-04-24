@@ -770,7 +770,7 @@ body{
 .wrapper-card-img:hover{
     overflow: hidden;
     .card-img{
-        transform: scale(1.1);
+        transform: scale(1.3);
     }
 }
 .logos-rasm:hover{
